@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'Karla'; /* Name your font family */
+    src: url('./assets/fonts/static/Karla-Regular.ttf');
+}
+
 *{
-    padding: 0px;
-    margin: 0px;
-    font-family: raleway;
+    padding: 0;
+    margin: 0;
+    font-family: Karla;
     box-sizing: border-box;
 }
 
@@ -67,6 +72,12 @@ button:hover{
     background-color: rgb(66, 66, 66);
     transition: 0.5s ease;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .formregion{
+        
+    }
 }
 
 
